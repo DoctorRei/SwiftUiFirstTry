@@ -9,11 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var tapCount = 0
+    @State private var tapCount = 0
     
-    @State var redAlpha = 0.3
-    @State var yelowAlpha = 0.3
-    @State var greenAlpha = 0.3
+    @State private var redAlpha = 0.3
+    @State private var yelowAlpha = 0.3
+    @State private var greenAlpha = 0.3
     
     var body: some View {
         
@@ -67,7 +67,7 @@ struct ContentView: View {
             print("green")
         }
     }
-        
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

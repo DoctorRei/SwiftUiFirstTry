@@ -17,7 +17,7 @@ struct ContentView: View {
     
     var body: some View {
         
-        VStack(alignment: .leading) {
+        VStack(alignment: .center) {
             
             RedView(alphaComponent: redAlpha)
                 .padding(16)
@@ -30,7 +30,7 @@ struct ContentView: View {
             
             Spacer()
             
-            VStack {
+            VStack(alignment: .center) {
                 Button {
                     changeColor()
                 } label: {
@@ -67,11 +67,7 @@ struct ContentView: View {
             print("green")
         }
     }
-    
-    private func changeColorV2() {
         
-    }
-    
 }
 
 struct ContentView_Previews: PreviewProvider {

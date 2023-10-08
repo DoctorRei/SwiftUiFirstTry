@@ -9,7 +9,7 @@ import SwiftUI
 
 struct YelowView: View {
     
-    var alphaComponent: Double
+    let alphaComponent: Double
     
     var body: some View {
         Circle()

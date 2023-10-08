@@ -9,7 +9,7 @@ import SwiftUI
 
 struct GreenView: View {
     
-    var alphaComponent: Double
+    let alphaComponent: Double
     
     var body: some View {
         Circle()

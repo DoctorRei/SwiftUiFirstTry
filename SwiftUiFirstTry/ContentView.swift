@@ -29,6 +29,7 @@ struct ContentView: View {
                 .padding(16)
             
             Spacer()
+            
             VStack {
                 Button {
                     changeColor()
@@ -65,6 +66,10 @@ struct ContentView: View {
             greenAlpha = 1
             print("green")
         }
+    }
+    
+    private func changeColorV2() {
+        
     }
     
 }
